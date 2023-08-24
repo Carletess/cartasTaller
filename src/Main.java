@@ -3,7 +3,6 @@ public class Main {
 
     public static void main(String[] args) {
         crearMatrizCartas();
-        agregarCartas("1", "1", crearMatrizCartas());
     }
     public static void crearMatrizCartas(){
         String cartas[][] = new String[13][2];
@@ -54,7 +53,11 @@ public class Main {
 
     }
     public static void obtenerCartas(){
+        for(int filas = 0; filas < 12; filas++){
+            for(int columnas = 0; columnas < 2; columnas++){
 
+            }
+        }
     }
     public static void jugar(){
 
